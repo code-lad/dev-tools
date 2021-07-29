@@ -1,0 +1,14 @@
+   
+Parse Server
+Increment Button
+ async increment() {
+      // Parse Create Class and Objects
+      let AppInstalled = className.extend("AppInstalled");
+      let query = new queryObject(AppInstalled);
+      let device = await query.get("LyDFzPknm2");
+
+      console.log(device.get("devices"));
+      device.increment("devices");
+      console.log(device.get("devices"));
+      device.save();
+    },

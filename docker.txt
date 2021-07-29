@@ -1,0 +1,29 @@
+
+Change Docker Format
+docker ps --format='\nID\t{{.ID}}\nNAME\t{{.Names}}\nIMAGE\t{{.Image}}\nPORT\t{{.Ports}}\nCOMMAND\t{{.Command}}\nCREATED\t{{.CreatedAt}}\nSTATUS\t{{.Status}}\n'
+
+Create alias in .zshrc
+Alias dps="docker ps --format '\nID\t{{.ID}}\nNAME\t{{.Names}}\nIMAGE\t{{.Image}}\nPORT\t{{.Ports}}\nCOMMAND\t{{.Command}}\nCREATED\t{{.CreatedAt}}\nSTATUS\t{{.Status}}\n'"
+
+Docker Share Files
+docker run --name **** -v $(pwd):/usr/share/nginx/html -d -p 8080:80 nginx
+
+Docker Copy Volume
+docker run --name **** --volumes-from **** -d -p 8081:80 nginx
+
+Docker Container nginx root
+docker exec -it ****
+
+docker ps # current containers
+docker run # create and start the container
+docker create # create container
+dokcer exec # to run commnads in container for once
+docker volume # create a docker volume
+docker network # create a docker network
+docker rm # remove container 
+docker images # list the images
+docker rmi # remove image
+docker build # build a new image from dockerfile
+docker push # push your image to docker repo
+docker pull # download an image from docker repo
+docker commit # create an image from container

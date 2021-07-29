@@ -1,0 +1,25 @@
+
+Dev Utilities
+_____________________________________
+
+Change Terminal Shell
+----------------------
+1. Cash -s /shell path
+
+Setup React App
+---------------
+1. npm install -g create-react-app
+
+2. npx create-react-app project_name
+
+Setup Vue
+---------
+1. npm install -g @vue/cli 
+
+Setup Yarn
+----------
+1. npm install -g yarn
+
+Setup Server
+------------
+npm install -g serve
