@@ -1,3 +1,9 @@
+
+
+https://mycolor.space/
+
+https://onsen.io/v2/guide/pwa/tutorial.html#onsen-ui-pwa-tutorial
+
 https://www.atlassian.com/git/tutorials/install-git
 
 http://libgen.rs/
